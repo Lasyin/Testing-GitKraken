@@ -7,6 +7,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/feature1', function(req, res) {
+    // Noticed a bug and fixed it..
     res.send("Feature 1!");
 });
 
@@ -16,3 +17,4 @@ app.listen(port, function() {
 
 // Main branch changed while working on feature 1 !!
 // Main branch changed while working on bugfix 1 !!
+// Bug fix 1 needs main branch changes before merging this time...
