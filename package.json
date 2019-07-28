@@ -1,0 +1,24 @@
+{
+  "name": "testing-gitkraken",
+  "version": "1.0.0",
+  "description": "Testing-GitKraken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lasyin/Testing-GitKraken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lasyin/Testing-GitKraken/issues"
+  },
+  "homepage": "https://github.com/Lasyin/Testing-GitKraken#readme",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "express": "^4.17.1"
+  }
+}
